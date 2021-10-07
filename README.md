@@ -1,4 +1,22 @@
-# vue-fetch-api
+# Vue Api Composition
+
+## Endpoint used
+GET
+```
+http://127.0.0.1:8000/api/transaction
+```
+POST
+```
+http://127.0.0.1:8000/api/transaction
+```
+UPDATE
+```
+http://127.0.0.1:8000/api/transaction/:id
+```
+DELETE
+```
+http://127.0.0.1:8000/api/transaction/:id
+```
 
 ## Project setup
 ```
