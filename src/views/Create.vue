@@ -48,7 +48,7 @@ export default {
         create() {
             axios.post('http://127.0.0.1:8000/api/transaction', this.transaction)
             .then(() => {
-                router.push({path: '/'})
+               this.$router.push({ name: 'Home' })
             })
             .catch((err) => {
                 console.log(err);

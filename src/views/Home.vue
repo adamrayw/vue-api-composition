@@ -61,7 +61,7 @@ export default {
     deletes(id, index) {
       axios.delete('http://127.0.0.1:8000/api/transaction/' + id)
       .then(() => {
-        return this.transactions.splice(index)
+        this.transactions.splice(index, 1)
       })
       .catch((err) => {
         console.log(err);

@@ -52,7 +52,7 @@ export default {
                 this.transaction
             )
             .then(() => {
-               router.replace({path: '/'})
+               this.$router.push({ name: 'Home' })
             })
             .catch((err) => {
                 console.log(err);
